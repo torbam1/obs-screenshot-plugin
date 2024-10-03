@@ -1,0 +1,49 @@
+{
+    "dependencies": {
+        "obs-studio": {
+            "version": "30.2.3",
+            "baseUrl": "https://github.com/obsproject/obs-studio/archive/refs/tags",
+            "label": "OBS sources",
+            "hashes": {
+                "macos": "490bae1c392b3b344b0270afd8cb887da4bc50bd92c0c426e96713c1ccb9701a",
+                "windows-x64": "c5bf721258f6d8b2342ed39f04e65cdd3a07a9d1300654471d4be91d87fee65b"
+            }
+        },
+         "prebuilt": {
+            "version": "2024-05-08",
+            "baseUrl": "https://github.com/obsproject/obs-deps/releases/download",
+            "label": "Pre-Built obs-deps",
+            "hashes": {
+                "macos-universal": "da3167a3efecfa67dd72e4f2b7964c3456d74c639d4c62aa21ec300ebd5007a8",
+                "windows-x64": "773c87a0d173125ef2768aaca6f6de64a7d6053213cc9f7d3970a301152042d8",
+                "windows-x86": "8f4bc6b37acbabe5434e7ebce3bbc8a213d6c265cd7b4e708cd17ca4aa334130"
+            }
+        },
+        "qt6": {
+            "version": "2024-05-08",
+            "baseUrl": "https://github.com/obsproject/obs-deps/releases/download",
+            "label": "Pre-Built Qt6",
+            "hashes": {
+                "macos-universal": "248fb342e7ddf574af0960aaedeffb832deda1485dc81583302646e979593a6e",
+                "windows-x64": "8f459af5115ce081ae24b108712327e113893f250e14a902b1bd188b43873ed1"
+            },
+            "debugSymbols": {
+                "windows-x64": "e4bc882f23195becbe53f1594fe75bdb9ff4f1d01e319f6caf8e0a38000cb42b"
+            }
+        }
+    },
+    "platformConfig": {
+        "macos": {
+            "bundleId": "com.example.obs-plugintemplate"
+        }
+    },
+    "name": "obs-screenshot-filter",
+    "displayName": "OBS Screenshot Filter",
+    "version": "1.5.4",
+    "author": "synap5e",
+    "website": "https://example.com",
+    "email": "me@example.com",
+    "uuids": {
+        "windowsApp": "00000000-0000-0000-0000-000000000000"
+    }
+}
